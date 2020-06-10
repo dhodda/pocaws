@@ -1,0 +1,113 @@
+2020-05-24 16:33:12,808 [ModalContext] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_252]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:128) ~[org.eclipse.m2e.core_1.15.0.20200305-1308.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:990) [org.eclipse.m2e.core_1.15.0.20200305-1308.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$1.saving(MavenPluginActivator.java:147) [org.eclipse.m2e.core_1.15.0.20200305-1308.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509) [org.eclipse.ui.ide.application_1.3.600.v20200116-2127.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+2020-05-24 16:33:24,069 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-24 16:33:52,416 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io-javabrains.springbootquickstart:course-api:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api/pom.xml.
+2020-05-24 16:33:52,768 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/main/java
+2020-05-24 16:33:52,768 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2020-05-24 16:33:52,769 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2020-05-24 16:33:52,769 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/test/java
+2020-05-24 16:33:52,769 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/test/resources
+2020-05-24 16:33:52,905 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2020-05-24 16:33:53,828 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:33:53,831 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 16:33:53,840 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:33:53,843 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:33:53,843 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:34:10,083 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrians:course-api-data:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/pom.xml.
+2020-05-24 16:34:10,409 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2020-05-24 16:34:10,410 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2020-05-24 16:34:10,410 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2020-05-24 16:34:10,410 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2020-05-24 16:34:10,489 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-05-24 16:34:11,062 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:34:11,063 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 16:34:11,071 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:34:11,073 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:34:11,073 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/src/test/resources
+2020-05-24 16:34:49,718 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 16:34:50,060 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrians:course-api-data:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/pom.xml.
+2020-05-24 16:34:50,319 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2020-05-24 16:34:50,320 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2020-05-24 16:34:50,320 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2020-05-24 16:34:50,320 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2020-05-24 16:34:50,449 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-05-24 16:34:50,830 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:34:50,830 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 16:34:50,840 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:34:50,842 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:34:50,842 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/src/test/resources
+2020-05-24 16:38:20,934 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:38:20,935 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:38:20,935 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:38:20,937 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:38:20,937 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/src/test/resources
+2020-05-24 16:51:53,804 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:51:53,808 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 16:51:53,809 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 16:51:53,810 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 16:51:53,810 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 18:58:40,154 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 18:58:40,156 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 18:58:40,158 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 18:58:40,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 18:58:40,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/src/test/resources
+2020-05-24 19:27:15,256 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:27:15,261 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 19:27:15,272 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:27:15,274 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:27:15,274 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:27:16,538 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:27:16,538 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 19:27:16,554 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:27:16,557 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:27:16,557 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/course-api-data/src/test/resources
+2020-05-24 19:27:32,908 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-24 19:32:45,622 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-24 19:35:50,961 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrians:movie-catalog-service:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/movie-catalog-service/pom.xml.
+2020-05-24 19:35:51,508 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movie-catalog-service/src/main/java
+2020-05-24 19:35:51,508 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movie-catalog-service/src/main/resources
+2020-05-24 19:35:51,510 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movie-catalog-service/src/main/resources
+2020-05-24 19:35:51,511 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movie-catalog-service/src/test/java
+2020-05-24 19:35:51,602 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2020-05-24 19:35:52,098 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:35:52,101 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 19:35:52,109 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:35:52,111 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:35:52,111 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/movie-catalog-service/src/test/resources
+2020-05-24 19:58:51,638 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrians:movie-info-service:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/movie-info-service/pom.xml.
+2020-05-24 19:58:51,826 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movie-info-service/src/main/java
+2020-05-24 19:58:51,826 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movie-info-service/src/main/resources
+2020-05-24 19:58:51,827 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movie-info-service/src/main/resources
+2020-05-24 19:58:51,829 [Worker-14: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movie-info-service/src/test/java
+2020-05-24 19:58:51,892 [Worker-14: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-05-24 19:58:52,209 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:58:52,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 19:58:52,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:58:52,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:58:52,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/movie-info-service/src/test/resources
+2020-05-24 19:59:04,138 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrians:ratings-data-service:0.0.1-SNAPSHOT @ /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/ratings-data-service/pom.xml.
+2020-05-24 19:59:04,282 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ratings-data-service/src/main/java
+2020-05-24 19:59:04,282 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ratings-data-service/src/main/resources
+2020-05-24 19:59:04,283 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ratings-data-service/src/main/resources
+2020-05-24 19:59:04,285 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ratings-data-service/src/test/java
+2020-05-24 19:59:04,341 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-05-24 19:59:04,666 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:59:04,667 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 19:59:04,667 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 19:59:04,669 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 19:59:04,670 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenreddydhodda/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/ratings-data-service/src/test/resources
